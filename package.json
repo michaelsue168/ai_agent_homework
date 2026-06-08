@@ -1,0 +1,24 @@
+{
+  "name": "ai_agent_homework",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "hw1": "node src/assignments/hw1-role-chat.js",
+    "hw2": "node src/assignments/hw2-calculator.js",
+    "hw3:build": "node src/assignments/hw3-kb-build.js",
+    "hw3:search": "node src/assignments/hw3-kb-search.js",
+    "hw4": "node src/assignments/hw4-weather-time.js",
+    "hw5": "node src/assignments/hw5-similarity.js",
+    "test:manual": "node src/tests/manual.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.0.1",
+    "dotenv": "^17.0.0",
+    "openai": "^6.0.0",
+    "ora": "^9.4.0"
+  }
+}
